@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+    <div class="content-container">
+        <button id="new-book">NEW BOOK</button>
+
+    <form id="book-form"class="hidden">
+        <div class="author-container">
+            <label for="author">Author</label>
+            <input id="author" type="text" placeholder="Drilon" required>
+        </div>
+
+        <div class="title-container">
+            <label for="title">Title</label>
+            <input id="title" type="text" placeholder="Bird Box" required>
+        </div>
+        
+        <div class="number-container">
+            <label for="num-pages">Number of pages</label>
+            <input id="num-pages" type="number" min="0" placeholder="69" required>
+        </div>
+
+        <div class="read-container">
+            <label for="is-read">Read</label>
+            <input id="is-read" type="checkbox" required>
+        </div>
+
+        <button id="add-book" type="submit">ADD BOOK</button>
+    </form>
+    
+    <div class="book-container">
+
+    </div>
+    </div>
+    
+</body>
+</html>
